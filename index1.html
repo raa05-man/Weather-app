@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./icon.png.png">
+    <link rel="stylesheet" href="style1.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" id="inpt" placeholder="Enter City Name" spellcheck="false">
+            <button id="btn"><img src="./search.png" height="13px">&nbsp;Search</button>
+        </div>
+        <div class="error">
+            <h2>Invalid City Name</h2>
+        </div>
+        <div class="weather">
+            <img src="rain.png" class="weather-icon">
+            <h1 class="temp">21°C</h1>
+            <h2 class="city">New-Delhi</h2>
+            <div class="details">
+                <div class="col1">
+                    <img src="humidity.png">
+                    <p class="humidity">60%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col2">
+                    <img src="wind.png">
+                    <p class="Wind">20 km/hr</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <h2 class="info"><u class="lines"><B>Made by Raman with &hearts;</B></u></h2>
+    
+    <script src="app1.js"></script>
+</body>
+</html>

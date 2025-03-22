@@ -1,0 +1,79 @@
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.main{
+    height: 550px;
+    width: 400px;
+    border: 5px groove rgb(57, 185, 249);
+    background: linear-gradient(135deg , #77f5d3 , #a89cf4);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#inpt{
+    background-color: rgb(163, 229, 241);
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#btn{
+    background-color: rgb(134, 134, 246);
+    border-radius: 8px;
+    height: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(93, 195, 246);
+}
+
+.weather-icon{
+    height: 120px;
+    width: 110px;
+    margin-top: 100px;
+}
+
+.col1{
+    height: 30px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.col2{
+    height: 30px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    font-size: large;
+    margin-top: 100px;
+    display: none;
+}
+
+.info:hover{
+color: #f61d1d;
+}
